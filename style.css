@@ -1,0 +1,163 @@
+@media screen and (min-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .hide {
+    display: none !important;
+  }
+  body {
+    background: hsl(234, 29%, 20%);
+  }
+  html {
+    font-size: calc(100vw / 1920 * 10);
+    font-family: "Roboto", sans-serif;
+  }
+  .section {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 88rem;
+    height: 61rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 16rem;
+    border-radius: 3rem;
+  }
+  .first__section {
+    margin-left: 5rem;
+  }
+  .header {
+    font-size: 5.5rem;
+    margin-top: 8rem;
+    color: hsl(235, 18%, 26%);
+    width: 39rem;
+  }
+  .paragraph {
+    font-size: 1.6rem;
+    margin-top: 2.2rem;
+    width: 41rem;
+  }
+  .lists {
+    display: flex;
+  }
+  .list__tick {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 3.6rem;
+  }
+
+  .list {
+    font-size: 1.6rem;
+
+    margin-left: 2rem;
+  }
+  .product {
+    font-size: 1.6rem;
+    margin-top: 2.9rem;
+    margin-left: 2rem;
+  }
+  .measure {
+    font-size: 1.6rem;
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+  }
+  .and {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    margin-left: 2rem;
+  }
+  .email__text {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-top: 5rem;
+  }
+  .email:invalid {
+    background: #ffd2d2;
+    border: red;
+    color: red;
+  }
+
+  .btn {
+    color: hsl(0, 0%, 100%);
+    background: hsl(235, 18%, 26%);
+    font-size: 1.6rem;
+    width: 36.6rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem 4.8rem;
+    margin-top: 2rem;
+  }
+  .btn:hover {
+    color: hsl(0, 0%, 100%);
+    background: hsl(4, 100%, 67%);
+    border: none;
+    cursor: pointer;
+  }
+  .first {
+    margin-top: 2.8rem;
+  }
+  .second {
+    margin-top: 1.8rem;
+  }
+  .third {
+    margin-top: 1.4rem;
+  }
+  .email {
+    font-size: 1.6rem;
+    width: 36.6rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem 4.8rem;
+    margin-top: 2rem;
+  }
+  .main__img {
+    width: 39rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+  }
+  .thanks {
+    background-color: hsl(0, 0%, 100%);
+    width: 80rem;
+    height: 71rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 16rem;
+    border-radius: 3rem;
+  }
+  .approve {
+    width: 10rem;
+    margin-top: 8rem;
+    margin-left: 9rem;
+  }
+  .thanks__heading {
+    font-size: 6rem;
+    width: 40rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
+  }
+  .content {
+    font-size: 2.8rem;
+    width: 63rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
+  }
+  .ash {
+    font-weight: 900;
+  }
+  .dismiss__btn {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(235, 18%, 26%);
+    font-size: 2.6rem;
+    width: 64.6rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem 4.8rem;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dismiss__btn:hover {
+    background-color: hsl(4, 100%, 67%);
+    color: hsl(0, 0%, 100%);
+  }
+}
